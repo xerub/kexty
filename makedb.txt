@@ -1,0 +1,3 @@
+makedb.sh needs a Mac/Linux-compiled kexty
+
+sqlite3 kernel.db "SELECT Value FROM Symbols JOIN Kernels ON Symbols.Kernel=Kernels.Kernel WHERE Version=935 AND Device='iPhone6,1' AND Symbol='_kOSBooleanTrue';"

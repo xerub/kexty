@@ -1,0 +1,10 @@
+kernel loader for 7.x-9.x
+
+arm64 kexty can load 64bit kexts
+arm32 kexty can load 32bit kexts
+
+in order to provide missing symbols:
+1. add it manually to the db
+2. add code to the 3 solvers at the bottom of the source
+
+-xerub
